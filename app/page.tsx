@@ -1,6 +1,7 @@
 import { Hero } from "@/components/hero"
 import { Skills } from "@/components/skills"
 import { KrakenInstitutional } from "@/components/kraken-institutional"
+import { WisdomTreeOverview } from "@/components/wisdomtree-overview"
 import { DataVISShowcase } from "@/components/datavis-showcase"
 import { ASOShowcase } from "@/components/aso-showcase"
 import { CryptoCopywriting } from "@/components/crypto-copywriting"
@@ -19,8 +20,8 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       {/* <Navigation /> */}
       <Hero />
-      <Skills />
       <KrakenInstitutional />
+      <WisdomTreeOverview />
       <DataVISShowcase />
       <ASOShowcase />
       <CryptoCopywriting />
@@ -29,6 +30,7 @@ export default function Home() {
       <Portfolio />
       <MemeShowcase />
       <WorkSamples />
+      <Skills />
       <Certifications />
       {/* <ResumeViewer /> */}
       <Contact />
