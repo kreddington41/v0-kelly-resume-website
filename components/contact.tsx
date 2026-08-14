@@ -80,7 +80,7 @@ export function Contact() {
 
         {/* Footer */}
         <div className="mt-20 pt-8 border-t border-white/10 text-center">
-          <p className="text-gray-400">© 2025 Kelly Reddington. All rights reserved.</p>
+          <p className="text-gray-400">© 2026 Kelly Reddington. All rights reserved.</p>
         </div>
       </div>
     </section>
