@@ -166,35 +166,60 @@ export function KrakenInstitutional() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Claude + Figma workflow */}
-            <div className="bg-black/40 border border-white/10 rounded-xl p-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="p-2.5 rounded-lg bg-red-500/10">
-                  <Workflow className="w-5 h-5 text-red-500" />
-                </div>
-                <h4 className="text-lg font-semibold text-white">On-Demand Enablement Generator</h4>
+          {/* Claude + Figma workflow */}
+          <div className="bg-black/40 border border-white/10 rounded-xl p-6 mb-6">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-2.5 rounded-lg bg-red-500/10">
+                <Workflow className="w-5 h-5 text-red-500" />
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Specialized Claude skills use MCP connectors to pull source docs straight from Google Workspace, then
-                build decks, one-pagers, and enablement materials against our Figma template libraries&mdash;also via
-                MCP. Sales and VIP relationship managers could spin up bespoke, client-tailored content on an as-needed
-                basis, removing the design bottleneck entirely and saving weeks of turnaround.
-              </p>
+              <h4 className="text-lg font-semibold text-white">On-Demand Enablement Generator</h4>
             </div>
+            <p className="text-gray-400 text-sm leading-relaxed">
+              Specialized Claude skills use MCP connectors to pull source docs from Google Workspace and build decks,
+              one-pagers, and enablement materials against our Figma template libraries. Sales and VIP relationship
+              managers could spin up bespoke, client-tailored content on an as-needed basis, removing the design
+              bottleneck entirely and saving weeks of turnaround.
+            </p>
+          </div>
 
-            {/* n8n brand grader */}
+          {/* Named messaging assistants */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Phil - institutional */}
             <div className="bg-black/40 border border-white/10 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
                 <div className="p-2.5 rounded-lg bg-red-500/10">
                   <FileCheck className="w-5 h-5 text-red-500" />
                 </div>
-                <h4 className="text-lg font-semibold text-white">Brand &amp; Messaging Grader</h4>
+                <div>
+                  <h4 className="text-lg font-semibold text-white">
+                    &ldquo;Phil&rdquo; &middot; Institutional Messaging Assistant
+                  </h4>
+                  <span className="text-xs text-gray-500">named after the Modern Family character</span>
+                </div>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed">
-                An n8n automation where PMs and PMMs upload content and receive an automated grade against our messaging
-                and brand guidelines. It kept every piece of Institutional marketing content aligned and on-brand at
+                An n8n automation where PMs and PMMs upload content and get an automated grade against our messaging and
+                brand guidelines. Phil kept every piece of Institutional marketing content aligned and on-brand at
                 scale&mdash;without adding a manual review step.
+              </p>
+            </div>
+
+            {/* Gloria - consumer */}
+            <div className="bg-black/40 border border-white/10 rounded-xl p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="p-2.5 rounded-lg bg-red-500/10">
+                  <FileCheck className="w-5 h-5 text-red-500" />
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-white">
+                    &ldquo;Gloria&rdquo; &middot; Consumer Messaging Assistant
+                  </h4>
+                  <span className="text-xs text-gray-500">the consumer-arm counterpart to Phil</span>
+                </div>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Gloria did the same for the consumer side of the business, keeping push notifications, newsletter
+                content, and in-app UX copy aligned with brand voice and messaging across every consumer touchpoint.
               </p>
             </div>
           </div>
