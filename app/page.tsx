@@ -10,7 +10,7 @@ import { Portfolio } from "@/components/portfolio"
 import { MemeShowcase } from "@/components/meme-showcase"
 import { WorkSamples } from "@/components/work-samples"
 import { Certifications } from "@/components/certifications"
-import { ResumeViewer } from "@/components/resume-viewer"
+// import { ResumeViewer } from "@/components/resume-viewer"
 import { Contact } from "@/components/contact"
 // import { Navigation } from "@/components/navigation"
 
@@ -30,7 +30,7 @@ export default function Home() {
       <MemeShowcase />
       <WorkSamples />
       <Certifications />
-      <ResumeViewer />
+      {/* <ResumeViewer /> */}
       <Contact />
     </main>
   )
