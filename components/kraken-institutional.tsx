@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { ChevronLeft, ChevronRight, Building2, ExternalLink, FileText, BookOpen, FolderOpen, Maximize2, X } from "lucide-react"
+import { ChevronLeft, ChevronRight, Building2, ExternalLink, FileText, BookOpen, FolderOpen, Maximize2, X, Sparkles, Workflow, FileCheck, TrendingUp, Users, Mail } from "lucide-react"
 
 export function KrakenInstitutional() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -83,11 +83,161 @@ export function KrakenInstitutional() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-red-500 to-red-600 mx-auto mt-4 mb-8"></div>
           <p className="text-gray-400 max-w-4xl mx-auto text-lg leading-relaxed">
-            I joined Kraken Institutional as a product marketer focusing on content strategy. I created social posts, animations, sales enablement material, decks for Payward Services (B2B offering), Prime brokerage, Exchange trading, Brochures for events, wrote blog posts, long-form educational primers, and more. I focused on broad strategy, tying our product offerings to industry narratives to trendjack and growth hack our social presence and to increase our MQLs in the pipeline.
+            I joined Kraken Institutional as a Senior Product Marketer focused on content strategy and creation across
+            seven product pods, translating complex crypto and financial infrastructure into clear institutional
+            narratives.
           </p>
-          <p className="text-white font-bold max-w-4xl mx-auto text-lg leading-relaxed mt-4">
+
+          {/* Product Pods */}
+          <div className="flex flex-wrap justify-center gap-2 mt-8 max-w-4xl mx-auto">
+            {[
+              { name: "Kraken360", note: "full-stack protocol offering" },
+              { name: "Prime Brokerage", note: null },
+              { name: "OTC", note: null },
+              { name: "Custody", note: null },
+              { name: "Ramp", note: "on/off ramps" },
+              { name: "Embed", note: "crypto-as-a-service" },
+              { name: "Exchange Trading", note: "family offices & hedge funds" },
+            ].map((pod) => (
+              <span
+                key={pod.name}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300"
+              >
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500" />
+                <span className="text-white font-medium">{pod.name}</span>
+                {pod.note && <span className="text-gray-500">{pod.note}</span>}
+              </span>
+            ))}
+          </div>
+          <p className="text-gray-500 text-sm mt-3">
+            Ramp and Embed together form Payward Services, Kraken&apos;s B2B offering.
+          </p>
+
+          <p className="text-gray-400 max-w-4xl mx-auto text-lg leading-relaxed mt-8">
+            Across these pods I ideated, created, and measured results for brochures, blog posts and content systems,
+            long-form educational primers, thought leadership strategy, sales enablement materials, and social posts. I
+            focused on broad strategy&mdash;tying our product offerings to industry narratives to trendjack our presence
+            and grow the pipeline.
+          </p>
+
+          {/* Growth Stats */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10 max-w-4xl mx-auto">
+            <div className="bg-white/5 border border-white/10 rounded-xl p-6">
+              <div className="flex items-center justify-center text-red-500 mb-2">
+                <TrendingUp className="w-5 h-5" />
+              </div>
+              <div className="text-3xl font-bold text-white">0 &rarr; 1k+</div>
+              <div className="text-gray-400 text-sm mt-1">followers on X / Twitter</div>
+            </div>
+            <div className="bg-white/5 border border-white/10 rounded-xl p-6">
+              <div className="flex items-center justify-center text-red-500 mb-2">
+                <Users className="w-5 h-5" />
+              </div>
+              <div className="text-3xl font-bold text-white">4,000+</div>
+              <div className="text-gray-400 text-sm mt-1">LinkedIn followers</div>
+            </div>
+            <div className="bg-white/5 border border-white/10 rounded-xl p-6">
+              <div className="flex items-center justify-center text-red-500 mb-2">
+                <Mail className="w-5 h-5" />
+              </div>
+              <div className="text-3xl font-bold text-white">5,700+</div>
+              <div className="text-gray-400 text-sm mt-1">newsletter subscribers I built &amp; ran</div>
+            </div>
+          </div>
+
+          <p className="text-white font-bold max-w-4xl mx-auto text-lg leading-relaxed mt-10">
             I blend institutional positioning, infrastructure narratives, regulated financial messaging, and complex product abstraction to create content systems.
           </p>
+        </div>
+
+        {/* AI Tools & Agent Workflows */}
+        <div className="mb-20 rounded-2xl border border-red-500/20 bg-gradient-to-b from-red-500/[0.07] to-transparent p-8 md:p-12">
+          <div className="text-center mb-10">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 text-xs font-semibold uppercase tracking-wider mb-4">
+              <Sparkles className="w-3.5 h-3.5" />
+              Differentiator
+            </div>
+            <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">AI Tools &amp; Agent Workflows</h3>
+            <p className="text-gray-400 max-w-3xl mx-auto leading-relaxed">
+              Beyond the content itself, I built the systems that produced it. I designed multiple AI tools and agent
+              workflows that streamlined content creation across the institutional org&mdash;wiring Claude to Figma and
+              Google Workspace through MCP connectors to eliminate the design and content bottlenecks that used to take
+              weeks.
+            </p>
+          </div>
+
+          {/* Claude + Figma workflow */}
+          <div className="bg-black/40 border border-white/10 rounded-xl p-6 mb-6">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-2.5 rounded-lg bg-red-500/10">
+                <Workflow className="w-5 h-5 text-red-500" />
+              </div>
+              <h4 className="text-lg font-semibold text-white">On-Demand Enablement Generator</h4>
+            </div>
+            <p className="text-gray-400 text-sm leading-relaxed">
+              Specialized Claude skills use MCP connectors to pull source docs from Google Workspace and build decks,
+              one-pagers, and enablement materials against our Figma template libraries. Sales and VIP relationship
+              managers could spin up bespoke, client-tailored content on an as-needed basis, removing the design
+              bottleneck entirely and saving weeks of turnaround.
+            </p>
+          </div>
+
+          {/* Named messaging assistants */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Phil - institutional */}
+            <div className="bg-black/40 border border-white/10 rounded-xl p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="p-2.5 rounded-lg bg-red-500/10">
+                  <FileCheck className="w-5 h-5 text-red-500" />
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-white">
+                    &ldquo;Phil&rdquo; &middot; Institutional Messaging Assistant
+                  </h4>
+                  <span className="text-xs text-gray-500">named after the Modern Family character</span>
+                </div>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                An n8n automation where PMs and PMMs upload content and get an automated grade against our messaging and
+                brand guidelines. Phil kept every piece of Institutional marketing content aligned and on-brand at
+                scale&mdash;without adding a manual review step.
+              </p>
+            </div>
+
+            {/* Gloria - consumer */}
+            <div className="bg-black/40 border border-white/10 rounded-xl p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="p-2.5 rounded-lg bg-red-500/10">
+                  <FileCheck className="w-5 h-5 text-red-500" />
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-white">
+                    &ldquo;Gloria&rdquo; &middot; Consumer Messaging Assistant
+                  </h4>
+                  <span className="text-xs text-gray-500">the consumer-arm counterpart to Phil</span>
+                </div>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Gloria did the same for the consumer side of the business, keeping push notifications, newsletter
+                content, and in-app UX copy aligned with brand voice and messaging across every consumer touchpoint.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
+            <div className="text-center bg-black/40 border border-white/10 rounded-xl p-5">
+              <div className="text-2xl font-bold text-white">Weeks &rarr; hours</div>
+              <div className="text-gray-500 text-sm mt-1">content turnaround</div>
+            </div>
+            <div className="text-center bg-black/40 border border-white/10 rounded-xl p-5">
+              <div className="text-2xl font-bold text-white">Zero</div>
+              <div className="text-gray-500 text-sm mt-1">design bottlenecks for sales</div>
+            </div>
+            <div className="text-center bg-black/40 border border-white/10 rounded-xl p-5">
+              <div className="text-2xl font-bold text-white">100% on-brand</div>
+              <div className="text-gray-500 text-sm mt-1">automated guideline checks</div>
+            </div>
+          </div>
         </div>
 
         {/* Slideshow */}

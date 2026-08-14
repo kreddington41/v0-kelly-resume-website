@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   const scrollToNextSection = () => {
-    const skillsSection = document.getElementById("skills")
-    if (skillsSection) {
-      skillsSection.scrollIntoView({ behavior: "smooth" })
+    const nextSection = document.getElementById("kraken-institutional")
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: "smooth" })
     }
   }
 
