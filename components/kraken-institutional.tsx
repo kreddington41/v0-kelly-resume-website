@@ -160,9 +160,9 @@ export function KrakenInstitutional() {
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">AI Tools &amp; Agent Workflows</h3>
             <p className="text-gray-400 max-w-3xl mx-auto leading-relaxed">
               Beyond the content itself, I built the systems that produced it. I designed multiple AI tools and agent
-              workflows that streamlined content creation across the institutional org&mdash;connecting design assets in
-              Figma with source material in Google Workspace to eliminate the design and content bottlenecks that used to
-              take weeks.
+              workflows that streamlined content creation across the institutional org&mdash;wiring Claude to Figma and
+              Google Workspace through MCP connectors to eliminate the design and content bottlenecks that used to take
+              weeks.
             </p>
           </div>
 
@@ -176,10 +176,10 @@ export function KrakenInstitutional() {
                 <h4 className="text-lg font-semibold text-white">On-Demand Enablement Generator</h4>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Specialized Claude skills connect to Google Workspace to ingest source docs, then structure decks,
-                one-pagers, and enablement materials using our Figma template libraries. Sales and VIP relationship
-                managers could spin up bespoke, client-tailored content on an as-needed basis&mdash;removing the design
-                bottleneck entirely and saving weeks of turnaround.
+                Specialized Claude skills use MCP connectors to pull source docs straight from Google Workspace, then
+                build decks, one-pagers, and enablement materials against our Figma template libraries&mdash;also via
+                MCP. Sales and VIP relationship managers could spin up bespoke, client-tailored content on an as-needed
+                basis, removing the design bottleneck entirely and saving weeks of turnaround.
               </p>
             </div>
 
