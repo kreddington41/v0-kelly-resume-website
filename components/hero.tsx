@@ -34,10 +34,12 @@ export function Hero() {
             Kelly Reddington
           </h1>
           <div className="text-xl md:text-2xl text-gray-300 mb-4">
-            Senior Product Marketing & GTM Leader | AI Systems & Automation | Fintech & Digital Assets{" "}
+            Product Marketing & GTM Leader | AI Automations | Fintech & Digital Assets{" "}
           </div>
           <div className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            Blending product strategy, technical fluency, and narrative clarity to turn complex technologies into compelling market stories and scalable GTM systems. Experienced across positioning, institutional messaging, sales enablement, growth, and AI-powered automation that eliminates operational bottlenecks and accelerates execution.
+            I translate technically complex B2B products into category narratives, storytelling, positioning, sales enablement, and GTM systems that help sophisticated buyers move from interest to internal conviction.
+
+            My approach combines narrative discipline, deal-specific enablement, proof architecture, and AI-powered automation to give Sales, Product, and Marketing teams the messaging, tools, and systems they need to accelerate execution.
           </div>
         </div>
 
