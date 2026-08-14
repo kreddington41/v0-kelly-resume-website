@@ -42,7 +42,7 @@ export function KrakenInstitutional() {
     {
       title: "Infrastructure for the OFFICIAL TRUMP Token Ecosystem",
       description: "Product 1-pager covering qualified custody, OTC execution, derivatives access, collateral capabilities, and broader strategic partnership opportunities.",
-      imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/official_trump_token_single-tHLmA33k3vqR1JXbJCqP3xyiLM5DH7.png",
+      imageUrl: "/kraken/official-trump-token.png",
     },
     {
       title: "BTC Covered Calls Strategy Spotlight",
@@ -52,17 +52,27 @@ export function KrakenInstitutional() {
     {
       title: "Kraken Prime for Hedge Funds",
       description: "Comprehensive product marketing for hedge funds covering qualified custody, execution & OTC liquidity, capital efficiency, regulated derivatives, and staking & yield.",
-      imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kraken_prime_hedge_funds_single-yU6We9bXMdX89AQ5uFXGY32yRSFs0q.png",
+      imageUrl: "/kraken/kraken-prime-hedge-funds.png",
     },
     {
       title: "Kraken Prime for Venture Capitalists",
       description: "Product marketing for VCs covering token custody & vesting, execution & OTC liquidity, LP reporting & governance, staking, yield, and financing.",
-      imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kraken_prime_vcs_single-1Q3zCuxJv2cRRpfCqpkdWwjd46v1oI.png",
+      imageUrl: "/kraken/kraken-prime-vcs.png",
+    },
+    {
+      title: "Kraken Prime for Asset Managers",
+      description: "Product marketing for asset managers covering qualified custody, algorithmic execution & OTC liquidity, integration & reporting with fund administrators, and custody-native staking & yield.",
+      imageUrl: "/kraken/kraken-prime-asset-managers.png",
     },
     {
       title: "OTC Options Primer",
-      description: "Educational content explaining OTC options, pricing mechanics, option strategies, and how to trade OTC options with Kraken.",
-      imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/otc_options_primer_page_1.png-b2TlN0pLOvnhxMbyy8hd9Kjwe55dWs.jpeg",
+      description: "Educational primer explaining crypto options — what they are, pricing mechanics, strategies, key risks, and worked payoff diagrams — for institutional market participants.",
+      imageUrl: "/kraken/otc-options-primer.png",
+    },
+    {
+      title: "Vendor Sprawl — Kraken 360 TGE Readiness Series",
+      description: "Thought-leadership blog (part 3 of 8) on why fragmented, multi-vendor token-launch stacks fail at the seams, and how Kraken 360 consolidates custody, distribution, liquidity and exchange coordination into one system.",
+      imageUrl: "/kraken/vendor-sprawl.png",
     },
     {
       title: "Kraken Institutional Brochure",
@@ -501,7 +511,7 @@ export function KrakenInstitutional() {
           </div>
 
           {/* Document Slideshow */}
-          <div className="relative">
+          <div className="relative max-w-3xl mx-auto">
             {/* Slide Header */}
             <div className="text-center mb-6">
               <h4 className="text-xl font-semibold text-white mb-2">{documentSlides[currentDocSlide].title}</h4>
@@ -511,7 +521,7 @@ export function KrakenInstitutional() {
             {/* Image Display with Scroll */}
             <div className="relative rounded-2xl overflow-hidden border border-white/10 bg-white/5">
               <div
-                className="w-full h-[600px] overflow-y-auto bg-gray-900 cursor-pointer group"
+                className="w-full h-[820px] overflow-y-auto bg-gray-900 cursor-pointer group"
                 style={{
                   scrollbarWidth: "thin",
                   scrollbarColor: "#ef4444 #1f2937",
