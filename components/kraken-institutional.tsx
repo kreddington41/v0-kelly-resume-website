@@ -47,7 +47,7 @@ export function KrakenInstitutional() {
     {
       title: "BTC Covered Calls Strategy Spotlight",
       description: "Strategy spotlight explaining covered call strategies for BTC holders, including strategy overview, why Kraken VIP, and steady premium capture performance metrics.",
-      imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/btc_covered_calls_single_image-qL5M1SzCXGGNNavyHrba03q0FazK7o.png",
+      imageUrl: "/kraken/btc-covered-calls.png",
     },
     {
       title: "Kraken Prime for Hedge Funds",
