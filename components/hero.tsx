@@ -34,12 +34,10 @@ export function Hero() {
             Kelly Reddington
           </h1>
           <div className="text-xl md:text-2xl text-gray-300 mb-4">
-            Marketing & Growth Strategist | Crypto | Fintech | AI{" "}
+            Senior Product Marketing & GTM Leader | AI Systems & Automation | Fintech & Digital Assets{" "}
           </div>
           <div className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            Blending technical fluency with narrative clarity to drive adoption. Specializing in education-first
-            content, go-to-market strategy, and institutional messaging that bridges complex infrastructure and
-            real-world outcomes.
+            Blending product strategy, technical fluency, and narrative clarity to turn complex technologies into compelling market stories and scalable GTM systems. Experienced across positioning, institutional messaging, sales enablement, growth, and AI-powered automation that eliminates operational bottlenecks and accelerates execution.
           </div>
         </div>
 
