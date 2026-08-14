@@ -64,6 +64,16 @@ export function KrakenInstitutional() {
       description: "Educational content explaining OTC options, pricing mechanics, option strategies, and how to trade OTC options with Kraken.",
       imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/otc_options_primer_page_1.png-b2TlN0pLOvnhxMbyy8hd9Kjwe55dWs.jpeg",
     },
+    {
+      title: "Kraken Institutional Brochure",
+      description: "Full institutional brochure spanning custody, prime, OTC, staking, Kraken 360 and Payward Services — with the 'Why Kraken?' benefits, by-the-numbers proof points, and who-we-serve breakdown. Tap to view the complete multi-page brochure.",
+      imageUrl: "/kraken/kraken-institutional-brochure.png",
+    },
+    {
+      title: "Kraken Institutional for Asset Allocators",
+      description: "Allocator-focused brochure covering algorithmic execution, qualified custody, multi-jurisdictional support, and index provision — positioning Kraken as an all-in-one turnkey partner across the digital asset product lifecycle.",
+      imageUrl: "/kraken/asset-allocators-brochure.png",
+    },
   ]
 
   const nextDocSlide = () => {
