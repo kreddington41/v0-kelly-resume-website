@@ -88,7 +88,7 @@ export function WorkSamples() {
 
             {/* SKHY LinkedIn post */}
             <a
-              href="https://solana.com/news/skhy-is-now-live"
+              href="https://lnkd.in/p/gxF5RHES"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col rounded-xl border border-white/10 bg-black/40 overflow-hidden hover:border-red-500/40 hover:bg-white/[0.04] transition-all duration-300"
