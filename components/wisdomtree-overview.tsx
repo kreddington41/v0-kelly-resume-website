@@ -13,9 +13,9 @@ export function WisdomTreeOverview() {
         "Promoted to lead product marketing for WisdomTree Prime and WisdomTree Connect, translating complex digital asset products into clear, compelling go-to-market narratives.",
     },
     {
-      role: "Director of Digital Asset Strategy (Responsibilities)",
+      role: "Digital Asset Strategy",
       description:
-        "Assumed the responsibilities of the Director of Digital Asset Strategy after he left for another opportunity \u2014 a rapid advancement driven by deep crypto and GTM expertise.",
+        "Stepped into the Director of Digital Asset Strategy scope after his departure \u2014 owning the digital asset go-to-market strategy across WisdomTree Prime and Connect.",
     },
   ]
 
@@ -43,8 +43,8 @@ export function WisdomTreeOverview() {
           <div className="w-24 h-1 bg-gradient-to-r from-red-500 to-red-600 mx-auto mt-4 mb-8"></div>
           <p className="text-gray-400 max-w-4xl mx-auto text-lg leading-relaxed">
             My time at WisdomTree is a story of rapid advancement. I was hired as a social media manager, promoted into
-            product marketing for WisdomTree Prime and WisdomTree Connect, and ultimately assumed the responsibilities of
-            the Director of Digital Asset Strategy when he left for another opportunity.
+            product marketing for WisdomTree Prime and WisdomTree Connect, and ultimately stepped into the Director of
+            Digital Asset Strategy scope after his departure &mdash; owning the digital asset go-to-market strategy.
           </p>
           <p className="text-white font-bold max-w-4xl mx-auto text-lg leading-relaxed mt-4">
             That trajectory was powered by deep crypto and GTM expertise&mdash;the same expertise that helped WisdomTree
