@@ -169,7 +169,7 @@ export function KrakenInstitutional() {
     <section id="kraken-institutional" className="py-20 px-4 sm:px-6 lg:px-8 bg-black">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent leading-tight pb-2">
+          <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight pb-2">
             Kraken Institutional
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-red-500 to-red-600 mx-auto mt-4 mb-8"></div>

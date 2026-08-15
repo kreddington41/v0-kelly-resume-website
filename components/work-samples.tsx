@@ -1,6 +1,6 @@
 "use client"
 
-import { ExternalLink, FileText, Zap } from "lucide-react"
+import { ExternalLink, Zap } from "lucide-react"
 
 export function WorkSamples() {
   const samples = [
@@ -16,18 +16,18 @@ export function WorkSamples() {
         "Data-Driven Insights: Leveraging analytics and client feedback to refine messaging and boost engagement",
       ],
     },
-    {
-      category: "Content Marketing",
-      icon: <FileText className="w-6 h-6" />,
-      items: [
-        "RWA.xyz Joint Whitepaper",
-        "Blog Strategy and Writing (named author and ghostwriter)",
-        "Storytelling for Brand awareness and employee advocacy",
-        "Copywriting & Creative Ideation",
-        "Podcast guest outreach and show notes",
-        "Website copy examples",
-      ],
-    },
+    // {
+    //   category: "Content Marketing",
+    //   icon: <FileText className="w-6 h-6" />,
+    //   items: [
+    //     "RWA.xyz Joint Whitepaper",
+    //     "Blog Strategy and Writing (named author and ghostwriter)",
+    //     "Storytelling for Brand awareness and employee advocacy",
+    //     "Copywriting & Creative Ideation",
+    //     "Podcast guest outreach and show notes",
+    //     "Website copy examples",
+    //   ],
+    // },
   ]
 
   return (
@@ -88,7 +88,7 @@ export function WorkSamples() {
 
             {/* SKHY LinkedIn post */}
             <a
-              href="https://solana.com/news/skhy-is-now-live"
+              href="https://lnkd.in/p/gxF5RHES"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col rounded-xl border border-white/10 bg-black/40 overflow-hidden hover:border-red-500/40 hover:bg-white/[0.04] transition-all duration-300"
