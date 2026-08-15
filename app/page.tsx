@@ -10,7 +10,7 @@ import { CaseStudy } from "@/components/case-study"
 import { GeoStrategy } from "@/components/geo-strategy"
 import { Portfolio } from "@/components/portfolio"
 import { MemeShowcase } from "@/components/meme-showcase"
-import { WorkSamples } from "@/components/work-samples"
+// import { WorkSamples } from "@/components/work-samples"
 import { Certifications } from "@/components/certifications"
 // import { ResumeViewer } from "@/components/resume-viewer"
 import { Contact } from "@/components/contact"
@@ -31,7 +31,7 @@ export default function Home() {
       <GeoStrategy />
       <Portfolio />
       <MemeShowcase />
-      <WorkSamples />
+      {/* <WorkSamples /> */}
       <Skills />
       <Certifications />
       {/* <ResumeViewer /> */}
