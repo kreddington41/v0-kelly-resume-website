@@ -1,6 +1,6 @@
 "use client"
 
-import { ExternalLink, FileText, Zap } from "lucide-react"
+import { ExternalLink, Zap } from "lucide-react"
 
 export function WorkSamples() {
   const samples = [
@@ -16,18 +16,18 @@ export function WorkSamples() {
         "Data-Driven Insights: Leveraging analytics and client feedback to refine messaging and boost engagement",
       ],
     },
-    {
-      category: "Content Marketing",
-      icon: <FileText className="w-6 h-6" />,
-      items: [
-        "RWA.xyz Joint Whitepaper",
-        "Blog Strategy and Writing (named author and ghostwriter)",
-        "Storytelling for Brand awareness and employee advocacy",
-        "Copywriting & Creative Ideation",
-        "Podcast guest outreach and show notes",
-        "Website copy examples",
-      ],
-    },
+    // {
+    //   category: "Content Marketing",
+    //   icon: <FileText className="w-6 h-6" />,
+    //   items: [
+    //     "RWA.xyz Joint Whitepaper",
+    //     "Blog Strategy and Writing (named author and ghostwriter)",
+    //     "Storytelling for Brand awareness and employee advocacy",
+    //     "Copywriting & Creative Ideation",
+    //     "Podcast guest outreach and show notes",
+    //     "Website copy examples",
+    //   ],
+    // },
   ]
 
   return (
