@@ -17,7 +17,7 @@ export function SolanaFoundation() {
               <h2 className="text-3xl md:text-4xl font-bold text-white">The Solana Foundation</h2>
               <p className="text-gray-400 mt-2 max-w-2xl leading-relaxed">
                 Launch storytelling for tokenized real-world assets coming live on Solana&mdash;spanning breaking-news
-                social campaigns and long-form editorial that tie major AI-infrastructure listings to the network.
+                social campaigns and long-form editorial thought leadership content that creatively tie major AI-infrastructure providers' offerings to Solana narratives.
               </p>
             </div>
           </div>
