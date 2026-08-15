@@ -42,27 +42,32 @@ export function KrakenInstitutional() {
     {
       title: "Infrastructure for the OFFICIAL TRUMP Token Ecosystem",
       description: "Product 1-pager covering qualified custody, OTC execution, derivatives access, collateral capabilities, and broader strategic partnership opportunities.",
-      imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/official_trump_token_single-tHLmA33k3vqR1JXbJCqP3xyiLM5DH7.png",
+      imageUrl: "/kraken/official-trump-token.png",
     },
     {
       title: "BTC Covered Calls Strategy Spotlight",
       description: "Strategy spotlight explaining covered call strategies for BTC holders, including strategy overview, why Kraken VIP, and steady premium capture performance metrics.",
-      imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/btc_covered_calls_single_image-qL5M1SzCXGGNNavyHrba03q0FazK7o.png",
+      imageUrl: "/kraken/btc-covered-calls.png",
     },
     {
       title: "Kraken Prime for Hedge Funds",
       description: "Comprehensive product marketing for hedge funds covering qualified custody, execution & OTC liquidity, capital efficiency, regulated derivatives, and staking & yield.",
-      imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kraken_prime_hedge_funds_single-yU6We9bXMdX89AQ5uFXGY32yRSFs0q.png",
+      imageUrl: "/kraken/kraken-prime-hedge-funds.png",
     },
     {
       title: "Kraken Prime for Venture Capitalists",
       description: "Product marketing for VCs covering token custody & vesting, execution & OTC liquidity, LP reporting & governance, staking, yield, and financing.",
-      imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kraken_prime_vcs_single-1Q3zCuxJv2cRRpfCqpkdWwjd46v1oI.png",
+      imageUrl: "/kraken/kraken-prime-vcs.png",
+    },
+    {
+      title: "Kraken Prime for Asset Managers",
+      description: "Product marketing for asset managers covering qualified custody, algorithmic execution & OTC liquidity, integration & reporting with fund administrators, and custody-native staking & yield.",
+      imageUrl: "/kraken/kraken-prime-asset-managers.png",
     },
     {
       title: "OTC Options Primer",
-      description: "Educational content explaining OTC options, pricing mechanics, option strategies, and how to trade OTC options with Kraken.",
-      imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/otc_options_primer_page_1.png-b2TlN0pLOvnhxMbyy8hd9Kjwe55dWs.jpeg",
+      description: "Educational primer explaining crypto options — what they are, pricing mechanics, strategies, key risks, and worked payoff diagrams — for institutional market participants.",
+      imageUrl: "/kraken/otc-options-primer.png",
     },
     {
       title: "Kraken Institutional Brochure",
@@ -73,6 +78,82 @@ export function KrakenInstitutional() {
       title: "Kraken Institutional for Asset Allocators",
       description: "Allocator-focused brochure covering algorithmic execution, qualified custody, multi-jurisdictional support, and index provision — positioning Kraken as an all-in-one turnkey partner across the digital asset product lifecycle.",
       imageUrl: "/kraken/asset-allocators-brochure.png",
+    },
+    {
+      title: "Vendor Sprawl — Kraken 360 TGE Readiness Series",
+      description: "Thought-leadership blog (part 3 of 8) on why fragmented, multi-vendor token-launch stacks fail at the seams, and how Kraken 360 consolidates custody, distribution, liquidity and exchange coordination into one system.",
+      imageUrl: "/kraken/vendor-sprawl.png",
+    },
+  ]
+
+  const blogPosts = [
+    {
+      category: "Payward Services · Ramp",
+      title: "Now Live on Onramper",
+      description:
+        "Product integration announcement positioning Ramp's on/off-ramp availability within the Onramper aggregator.",
+      href: "https://blog.kraken.com/product/ramp/now-live-on-onramper",
+      image: "/kraken/blog/ramp-onramper.webp",
+    },
+    {
+      category: "Kraken 360 · Part 1",
+      title: "The TGE Checklist",
+      description:
+        "Opening piece of the TGE readiness series — the end-to-end checklist teams need before a token generation event.",
+      href: "https://blog.kraken.com/product/360/the-tge-checklist",
+      image: "/kraken/blog/tge-checklist.webp",
+    },
+    {
+      category: "Kraken 360 · Part 2",
+      title: "The Pre-TGE Playbook",
+      description: "How to structure the months ahead of a launch across custody, distribution, and liquidity.",
+      href: "https://blog.kraken.com/product/360/pre-tge-playbook-part-2",
+      image: "/kraken/blog/pre-tge-playbook-part-2.webp",
+    },
+    {
+      category: "Kraken 360 · Part 3",
+      title: "The Pre-TGE Playbook",
+      description: "Continuing the playbook with deeper operational sequencing for a coordinated launch.",
+      href: "https://blog.kraken.com/product/360/pre-tge-playbook-part-3",
+      image: "/kraken/blog/pre-tge-playbook-part-3.webp",
+    },
+    {
+      category: "Kraken 360 · Part 4",
+      title: "The Pre-TGE Playbook",
+      description: "Closing out the playbook arc with the final readiness steps before mint.",
+      href: "https://blog.kraken.com/product/360/pre-tge-playbook-part-4",
+      image: "/kraken/blog/pre-tge-playbook-part-4.webp",
+    },
+    {
+      category: "Kraken 360 · Part 5",
+      title: "The Vendor Sprawl Problem",
+      description:
+        "Why fragmented, multi-vendor launch stacks fail at the seams — and the case for consolidation under one system.",
+      href: "https://blog.kraken.com/product/360/the-vendor-sprawl-problem",
+      image: "/kraken/blog/vendor-sprawl-problem.webp",
+    },
+    {
+      category: "Kraken 360 · Part 6",
+      title: "6 Vendors to Lock In Before Mint",
+      description: "The concrete vendor categories a team must secure before a token launch goes live.",
+      href: "https://blog.kraken.com/product/360/6-vendors-to-lock-in-before-mint",
+      image: "/kraken/blog/6-vendors-before-mint.webp",
+    },
+    {
+      category: "Exchange Trading · Content System",
+      title: "'API Unlocked' Series",
+      description:
+        "A recurring content system spotlighting Kraken's exchange trading APIs for institutional market participants.",
+      href: "https://blog.kraken.com/category/product/api",
+      image: "/kraken/blog/api-unlocked.png",
+    },
+    {
+      category: "Kraken Custody",
+      title: "SPL Token Support for Solana",
+      description:
+        "Taps the internet-capital-markets narrative, segues into a Kraken 360 spotlight, and closes by interweaving Solana's mission with Kraken's founding mission.",
+      href: "https://blog.kraken.com/product/kraken-institutional/spl-token-support-for-solana",
+      image: "/kraken/blog/spl-token-solana.webp",
     },
   ]
 
@@ -334,140 +415,32 @@ export function KrakenInstitutional() {
             </p>
           </div>
 
-          <div className="space-y-8">
-            {/* Product Integration Announcement */}
-            <div className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-red-500/30 transition-all duration-300">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-lg bg-red-500/10">
-                  <FileText className="w-5 h-5 text-red-500" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {blogPosts.map((post) => (
+              <a
+                key={post.href}
+                href={post.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col rounded-xl border border-white/10 bg-black/40 overflow-hidden hover:border-red-500/40 hover:bg-white/[0.04] transition-all duration-300"
+              >
+                <div className="relative aspect-[16/9] overflow-hidden bg-black">
+                  <img
+                    src={post.image || "/placeholder.svg"}
+                    alt={`${post.title} blog header`}
+                    className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-300"
+                  />
                 </div>
-                <div className="flex-1">
-                  <h4 className="text-lg font-semibold text-white mb-2">Product Integration Announcement</h4>
-                  <a
-                    href="https://blog.kraken.com/product/ramp/now-live-on-onramper"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 transition-colors text-sm"
-                  >
-                    <ExternalLink className="w-4 h-4" />
-                    Now Live on Onramper
-                  </a>
+                <div className="p-5 flex flex-col flex-1">
+                  <span className="text-xs font-semibold text-red-400 uppercase tracking-wider">{post.category}</span>
+                  <span className="text-white font-semibold mt-1 leading-snug">{post.title}</span>
+                  <span className="text-gray-400 text-sm mt-2 leading-relaxed flex-1">{post.description}</span>
+                  <span className="inline-flex items-center gap-1.5 text-red-400 text-sm font-medium mt-4">
+                    Read post <ExternalLink className="w-3.5 h-3.5" />
+                  </span>
                 </div>
-              </div>
-            </div>
-
-            {/* Kraken 360 Thought Leadership */}
-            <div className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-red-500/30 transition-all duration-300">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-lg bg-red-500/10">
-                  <FileText className="w-5 h-5 text-red-500" />
-                </div>
-                <div className="flex-1">
-                  <h4 className="text-lg font-semibold text-white mb-3">Kraken 360 Thought Leadership Content System</h4>
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-                    <a
-                      href="https://blog.kraken.com/product/360/the-tge-checklist"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 transition-colors text-sm"
-                    >
-                      <ExternalLink className="w-3 h-3" />
-                      Part 1: The TGE Checklist
-                    </a>
-                    <a
-                      href="https://blog.kraken.com/product/360/pre-tge-playbook-part-2"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 transition-colors text-sm"
-                    >
-                      <ExternalLink className="w-3 h-3" />
-                      Part 2: Pre-TGE Playbook
-                    </a>
-                    <a
-                      href="https://blog.kraken.com/product/360/pre-tge-playbook-part-3"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 transition-colors text-sm"
-                    >
-                      <ExternalLink className="w-3 h-3" />
-                      Part 3: Pre-TGE Playbook
-                    </a>
-                    <a
-                      href="https://blog.kraken.com/product/360/pre-tge-playbook-part-4"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 transition-colors text-sm"
-                    >
-                      <ExternalLink className="w-3 h-3" />
-                      Part 4: Pre-TGE Playbook
-                    </a>
-                    <a
-                      href="https://blog.kraken.com/product/360/the-vendor-sprawl-problem"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 transition-colors text-sm"
-                    >
-                      <ExternalLink className="w-3 h-3" />
-                      Part 5: Vendor Sprawl Problem
-                    </a>
-                    <a
-                      href="https://blog.kraken.com/product/360/6-vendors-to-lock-in-before-mint"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 transition-colors text-sm"
-                    >
-                      <ExternalLink className="w-3 h-3" />
-                      Part 6: 6 Vendors to Lock In
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Exchange Trading API Unlocked */}
-            <div className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-red-500/30 transition-all duration-300">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-lg bg-red-500/10">
-                  <FileText className="w-5 h-5 text-red-500" />
-                </div>
-                <div className="flex-1">
-                  <h4 className="text-lg font-semibold text-white mb-2">Exchange Trading &apos;API Unlocked&apos; Content System</h4>
-                  <a
-                    href="https://blog.kraken.com/category/product/api"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 transition-colors text-sm"
-                  >
-                    <ExternalLink className="w-4 h-4" />
-                    View API Content Series
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Kraken Custody SPL Token Support */}
-            <div className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-red-500/30 transition-all duration-300">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-lg bg-red-500/10">
-                  <FileText className="w-5 h-5 text-red-500" />
-                </div>
-                <div className="flex-1">
-                  <h4 className="text-lg font-semibold text-white mb-2">Kraken Custody Expanded Asset Support</h4>
-                  <a
-                    href="https://blog.kraken.com/product/kraken-institutional/spl-token-support-for-solana"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 transition-colors text-sm"
-                  >
-                    <ExternalLink className="w-4 h-4" />
-                    SPL Token Support for Solana
-                  </a>
-                  <p className="text-gray-500 text-xs mt-2">
-                    This post taps into the internet capital markets narrative popularized by the Solana ecosystem, naturally segues into a Kraken 360 product spotlight, and ends with an inter-weaving of Solana&apos;s mission and Kraken&apos;s founding mission.
-                  </p>
-                </div>
-              </div>
-            </div>
+              </a>
+            ))}
           </div>
         </div>
 
@@ -501,7 +474,7 @@ export function KrakenInstitutional() {
           </div>
 
           {/* Document Slideshow */}
-          <div className="relative">
+          <div className="relative max-w-3xl mx-auto">
             {/* Slide Header */}
             <div className="text-center mb-6">
               <h4 className="text-xl font-semibold text-white mb-2">{documentSlides[currentDocSlide].title}</h4>
@@ -511,7 +484,7 @@ export function KrakenInstitutional() {
             {/* Image Display with Scroll */}
             <div className="relative rounded-2xl overflow-hidden border border-white/10 bg-white/5">
               <div
-                className="w-full h-[600px] overflow-y-auto bg-gray-900 cursor-pointer group"
+                className="w-full h-[820px] overflow-y-auto bg-gray-900 cursor-pointer group"
                 style={{
                   scrollbarWidth: "thin",
                   scrollbarColor: "#ef4444 #1f2937",
