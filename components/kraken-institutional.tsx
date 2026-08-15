@@ -40,11 +40,6 @@ export function KrakenInstitutional() {
 
   const documentSlides = [
     {
-      title: "Infrastructure for the OFFICIAL TRUMP Token Ecosystem",
-      description: "Product 1-pager covering qualified custody, OTC execution, derivatives access, collateral capabilities, and broader strategic partnership opportunities.",
-      imageUrl: "/kraken/official-trump-token.png",
-    },
-    {
       title: "BTC Covered Calls Strategy Spotlight",
       description: "Strategy spotlight explaining covered call strategies for BTC holders, including strategy overview, why Kraken VIP, and steady premium capture performance metrics.",
       imageUrl: "/kraken/btc-covered-calls.png",
@@ -78,6 +73,11 @@ export function KrakenInstitutional() {
       title: "Kraken Institutional for Asset Allocators",
       description: "Allocator-focused brochure covering algorithmic execution, qualified custody, multi-jurisdictional support, and index provision — positioning Kraken as an all-in-one turnkey partner across the digital asset product lifecycle.",
       imageUrl: "/kraken/asset-allocators-brochure.png",
+    },
+    {
+      title: "Infrastructure for the OFFICIAL TRUMP Token Ecosystem",
+      description: "Product 1-pager covering qualified custody, OTC execution, derivatives access, collateral capabilities, and broader strategic partnership opportunities.",
+      imageUrl: "/kraken/official-trump-token.png",
     },
     {
       title: "Vendor Sprawl — Kraken 360 TGE Readiness Series",

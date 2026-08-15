@@ -1,4 +1,5 @@
 import { Hero } from "@/components/hero"
+import { SolanaFoundation } from "@/components/solana-foundation"
 import { Skills } from "@/components/skills"
 import { KrakenInstitutional } from "@/components/kraken-institutional"
 import { WisdomTreeOverview } from "@/components/wisdomtree-overview"
@@ -9,7 +10,7 @@ import { CaseStudy } from "@/components/case-study"
 import { GeoStrategy } from "@/components/geo-strategy"
 import { Portfolio } from "@/components/portfolio"
 import { MemeShowcase } from "@/components/meme-showcase"
-import { WorkSamples } from "@/components/work-samples"
+// import { WorkSamples } from "@/components/work-samples"
 import { Certifications } from "@/components/certifications"
 // import { ResumeViewer } from "@/components/resume-viewer"
 import { Contact } from "@/components/contact"
@@ -20,6 +21,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       {/* <Navigation /> */}
       <Hero />
+      <SolanaFoundation />
       <KrakenInstitutional />
       <WisdomTreeOverview />
       <DataVISShowcase />
@@ -29,7 +31,7 @@ export default function Home() {
       <GeoStrategy />
       <Portfolio />
       <MemeShowcase />
-      <WorkSamples />
+      {/* <WorkSamples /> */}
       <Skills />
       <Certifications />
       {/* <ResumeViewer /> */}

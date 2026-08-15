@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   const scrollToNextSection = () => {
-    const nextSection = document.getElementById("kraken-institutional")
+    const nextSection = document.getElementById("solana-foundation")
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: "smooth" })
     }
@@ -37,9 +37,9 @@ export function Hero() {
             Product Marketing & GTM Leader | AI Automations | Fintech & Digital Assets{" "}
           </div>
           <div className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            I translate technically complex B2B products into category narratives, storytelling, positioning, sales enablement, and GTM systems that help sophisticated buyers move from interest to internal conviction.
+            Blending technical fluency with narrative clarity to drive adoption.
 
-            My approach combines narrative discipline, deal-specific enablement, proof architecture, and AI-powered automation to give Sales, Product, and Marketing teams the messaging, tools, and systems they need to accelerate execution.
+            My approach combines narrative storytelling, positioning, AI automations, and GTM systems to accelerate execution across teams and scale.
           </div>
         </div>
 
