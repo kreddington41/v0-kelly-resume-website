@@ -93,6 +93,7 @@ export function KrakenInstitutional() {
       description:
         "Product integration announcement positioning Ramp's on/off-ramp availability within the Onramper aggregator.",
       href: "https://blog.kraken.com/product/ramp/now-live-on-onramper",
+      image: "/kraken/blog/ramp-onramper.webp",
     },
     {
       category: "Kraken 360 · Part 1",
@@ -100,24 +101,28 @@ export function KrakenInstitutional() {
       description:
         "Opening piece of the TGE readiness series — the end-to-end checklist teams need before a token generation event.",
       href: "https://blog.kraken.com/product/360/the-tge-checklist",
+      image: "/kraken/blog/tge-checklist.webp",
     },
     {
       category: "Kraken 360 · Part 2",
       title: "The Pre-TGE Playbook",
       description: "How to structure the months ahead of a launch across custody, distribution, and liquidity.",
       href: "https://blog.kraken.com/product/360/pre-tge-playbook-part-2",
+      image: "/kraken/blog/pre-tge-playbook-part-2.webp",
     },
     {
       category: "Kraken 360 · Part 3",
       title: "The Pre-TGE Playbook",
       description: "Continuing the playbook with deeper operational sequencing for a coordinated launch.",
       href: "https://blog.kraken.com/product/360/pre-tge-playbook-part-3",
+      image: "/kraken/blog/pre-tge-playbook-part-3.webp",
     },
     {
       category: "Kraken 360 · Part 4",
       title: "The Pre-TGE Playbook",
       description: "Closing out the playbook arc with the final readiness steps before mint.",
       href: "https://blog.kraken.com/product/360/pre-tge-playbook-part-4",
+      image: "/kraken/blog/pre-tge-playbook-part-4.webp",
     },
     {
       category: "Kraken 360 · Part 5",
@@ -125,12 +130,14 @@ export function KrakenInstitutional() {
       description:
         "Why fragmented, multi-vendor launch stacks fail at the seams — and the case for consolidation under one system.",
       href: "https://blog.kraken.com/product/360/the-vendor-sprawl-problem",
+      image: "/kraken/blog/vendor-sprawl-problem.webp",
     },
     {
       category: "Kraken 360 · Part 6",
       title: "6 Vendors to Lock In Before Mint",
       description: "The concrete vendor categories a team must secure before a token launch goes live.",
       href: "https://blog.kraken.com/product/360/6-vendors-to-lock-in-before-mint",
+      image: "/kraken/blog/6-vendors-before-mint.webp",
     },
     {
       category: "Exchange Trading · Content System",
@@ -138,6 +145,7 @@ export function KrakenInstitutional() {
       description:
         "A recurring content system spotlighting Kraken's exchange trading APIs for institutional market participants.",
       href: "https://blog.kraken.com/category/product/api",
+      image: "/kraken/blog/api-unlocked.png",
     },
     {
       category: "Kraken Custody",
@@ -145,6 +153,7 @@ export function KrakenInstitutional() {
       description:
         "Taps the internet-capital-markets narrative, segues into a Kraken 360 spotlight, and closes by interweaving Solana's mission with Kraken's founding mission.",
       href: "https://blog.kraken.com/product/kraken-institutional/spl-token-support-for-solana",
+      image: "/kraken/blog/spl-token-solana.webp",
     },
   ]
 
@@ -415,8 +424,12 @@ export function KrakenInstitutional() {
                 rel="noopener noreferrer"
                 className="group flex flex-col rounded-xl border border-white/10 bg-black/40 overflow-hidden hover:border-red-500/40 hover:bg-white/[0.04] transition-all duration-300"
               >
-                <div className="relative h-28 flex items-center justify-center bg-gradient-to-br from-red-500/15 via-black to-black">
-                  <BookOpen className="w-8 h-8 text-red-400/80" />
+                <div className="relative aspect-[16/9] overflow-hidden bg-black">
+                  <img
+                    src={post.image || "/placeholder.svg"}
+                    alt={`${post.title} blog header`}
+                    className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-300"
+                  />
                 </div>
                 <div className="p-5 flex flex-col flex-1">
                   <span className="text-xs font-semibold text-red-400 uppercase tracking-wider">{post.category}</span>
