@@ -1,4 +1,5 @@
 import { Hero } from "@/components/hero"
+import { SolanaFoundation } from "@/components/solana-foundation"
 import { Skills } from "@/components/skills"
 import { KrakenInstitutional } from "@/components/kraken-institutional"
 import { WisdomTreeOverview } from "@/components/wisdomtree-overview"
@@ -20,6 +21,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       {/* <Navigation /> */}
       <Hero />
+      <SolanaFoundation />
       <KrakenInstitutional />
       <WisdomTreeOverview />
       <DataVISShowcase />
