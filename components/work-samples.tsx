@@ -1,6 +1,6 @@
 "use client"
 
-import { ExternalLink, FileText, Zap, Newspaper } from "lucide-react"
+import { ExternalLink, FileText, Zap } from "lucide-react"
 
 export function WorkSamples() {
   const samples = [
@@ -119,8 +119,12 @@ export function WorkSamples() {
               rel="noopener noreferrer"
               className="group flex flex-col rounded-xl border border-white/10 bg-black/40 overflow-hidden hover:border-red-500/40 hover:bg-white/[0.04] transition-all duration-300"
             >
-              <div className="relative h-56 flex items-center justify-center bg-gradient-to-br from-red-500/15 via-black to-black">
-                <Newspaper className="w-14 h-14 text-red-400/80" />
+              <div className="relative overflow-hidden bg-black">
+                <img
+                  src="/solana/skhy-live-editorial.webp"
+                  alt="Solana editorial graphic reading SKHY is live on Solana"
+                  className="w-full h-56 object-cover group-hover:scale-[1.02] transition-transform duration-300"
+                />
               </div>
               <div className="p-5 flex flex-col flex-1">
                 <span className="text-xs font-semibold text-red-400 uppercase tracking-wider">
