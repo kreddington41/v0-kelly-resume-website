@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   const scrollToNextSection = () => {
-    const nextSection = document.getElementById("kraken-institutional")
+    const nextSection = document.getElementById("solana-foundation")
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: "smooth" })
     }
