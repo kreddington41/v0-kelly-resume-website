@@ -71,11 +71,28 @@ export default function ProtoPage() {
               </p>
             </div>
 
-            <div className="border-t border-white/10 pt-8">
-              <p className="text-xs font-semibold tracking-[0.2em] text-red-400 uppercase">Sample video</p>
-              <h2 className="mt-3 text-2xl font-semibold tracking-tight">Stablecoin Steph</h2>
-              <p className="mt-3 leading-7 text-white/60">A video experiment for an AI influencer concept.</p>
-              <div className="mt-6 overflow-hidden rounded-xl border border-white/10 bg-black">
+          </div>
+        </section>
+
+        <section className="mt-16 border-t border-white/10 pt-10">
+          <div className="grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(320px,1.1fr)] lg:items-start">
+            <div>
+              <p className="text-xs font-semibold tracking-[0.2em] text-red-400 uppercase">AI influencer concept</p>
+              <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Stablecoin Steph</h2>
+              <p className="mt-5 max-w-xl leading-8 text-white/60">
+                A quirky, smart NYC vlogger archetype who explains stablecoin trends in a fun, approachable way.
+              </p>
+              <div className="mt-8 border-l border-red-500/50 pl-5 text-sm leading-7 text-white/55">
+                <p>
+                  The workflow: define the character archetype, use ChatGPT to create a transparent PNG watermark, and iterate through Veo 3 prompting to solve the challenge of maintaining character consistency with enough specificity.
+                </p>
+                <p className="mt-4">
+                  Usable clips were pulled into CapCut, where its built-in Captions feature handled subtitles. Rudimentary text boxes were added, the watermark was dragged into place, and the finished video was exported.
+                </p>
+              </div>
+            </div>
+            <div className="overflow-hidden rounded-2xl border border-white/10 bg-black shadow-2xl shadow-red-950/20">
+              <div className="min-h-[399px] w-full">
                 <iframe
                   src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7338001845077843968?compact=1"
                   title="Stablecoin Steph video on LinkedIn"
