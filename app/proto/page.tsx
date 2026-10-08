@@ -111,17 +111,6 @@ export default function ProtoPage() {
               <p className="mt-5 max-w-xl leading-8 text-white/60">
                 I used Midjourney to generate the initial Lamborghini, aligned with Proto&apos;s brand using its X profile photo, then took that generation into Omni for rapid, cost-efficient iteration.
               </p>
-              <div className="mt-8 space-y-4 border-l border-red-500/50 pl-5 text-sm leading-7 text-white/55">
-                <p>
-                  Higgsfield is currently overpriced and slow for basic generations, so for this simple page I didn&apos;t want to spend precious credits on a lightweight sample.
-                </p>
-                <p>
-                  The brief: an AI character walking through a graveyard of memecoins, with a Proto-branded MacBook Pro in the gift box — a visual cue for trading directly from the platform.
-                </p>
-                <p>
-                  This is intentionally a short concept rather than a comprehensive production. It uses minimal Higgsfield generations and credits to test the idea.
-                </p>
-              </div>
             </div>
 
             <div className="overflow-hidden rounded-2xl border border-white/10 bg-black shadow-2xl shadow-red-950/20">
