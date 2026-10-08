@@ -29,7 +29,7 @@ export default function ProtoPage() {
         <section className="max-w-4xl py-8 sm:py-12">
           <div className="mb-8 flex items-center gap-3 text-xs font-medium tracking-[0.24em] text-red-300 uppercase">
             <span className="h-px w-10 bg-red-500" />
-            A living archive
+            Specifically created for Proto
           </div>
           <h1 className="max-w-3xl text-3xl font-semibold leading-[1.02] tracking-[-0.04em] text-balance sm:text-4xl lg:text-5xl">
             AI video and image work.
