@@ -34,9 +34,6 @@ export default function ProtoPage() {
           <h1 className="max-w-3xl text-3xl font-semibold leading-[1.02] tracking-[-0.04em] text-balance sm:text-4xl lg:text-5xl">
             AI video and image work.
           </h1>
-          <p className="mt-8 max-w-2xl text-lg leading-8 text-white/60 sm:text-xl">
-            An evolving collection of experiments, campaigns, and visual systems built with AI as part of the creative workflow.
-          </p>
         </section>
 
         <section className="grid gap-8 border-t border-white/10 pt-10 lg:grid-cols-[minmax(0,1fr)_minmax(320px,0.7fr)] lg:items-start">
