@@ -26,12 +26,12 @@ export default function ProtoPage() {
           </span>
         </header>
 
-        <section className="max-w-4xl py-24 sm:py-32">
+        <section className="max-w-4xl py-8 sm:py-12">
           <div className="mb-8 flex items-center gap-3 text-xs font-medium tracking-[0.24em] text-red-300 uppercase">
             <span className="h-px w-10 bg-red-500" />
             A living archive
           </div>
-          <h1 className="max-w-3xl text-5xl font-semibold leading-[0.98] tracking-[-0.045em] text-balance sm:text-7xl lg:text-8xl">
+          <h1 className="max-w-3xl text-3xl font-semibold leading-[1.02] tracking-[-0.04em] text-balance sm:text-4xl lg:text-5xl">
             AI video and image work.
           </h1>
           <p className="mt-8 max-w-2xl text-lg leading-8 text-white/60 sm:text-xl">
@@ -80,6 +80,64 @@ export default function ProtoPage() {
                   src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7338001845077843968?compact=1"
                   title="Stablecoin Steph video on LinkedIn"
                   className="h-[399px] w-full"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-16 border-t border-white/10 pt-10">
+          <div className="grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(320px,1.1fr)] lg:items-start">
+            <div>
+              <p className="text-xs font-semibold tracking-[0.2em] text-red-400 uppercase">Brand character concept</p>
+              <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Proto Lambo</h2>
+              <p className="mt-5 max-w-xl leading-8 text-white/60">
+                I used Midjourney to generate the initial Lamborghini, aligned with Proto&apos;s brand using its X profile photo, then took that generation into Omni for rapid, cost-efficient iteration.
+              </p>
+              <div className="mt-8 space-y-4 border-l border-red-500/50 pl-5 text-sm leading-7 text-white/55">
+                <p>
+                  Higgsfield is currently overpriced and slow for basic generations, so for this simple page I didn&apos;t want to spend precious credits on a lightweight sample.
+                </p>
+                <p>
+                  The brief: an AI character walking through a graveyard of memecoins, with a Proto-branded MacBook Pro in the gift box — a visual cue for trading directly from the platform.
+                </p>
+                <p>
+                  This is intentionally a short concept rather than a comprehensive production. It uses minimal Higgsfield generations and credits to test the idea.
+                </p>
+              </div>
+            </div>
+
+            <div className="overflow-hidden rounded-2xl border border-white/10 bg-black shadow-2xl shadow-red-950/20">
+              <div className="aspect-[9/16] w-full sm:aspect-video">
+                <iframe
+                  src="https://www.youtube.com/embed/bnASAZcV_UI"
+                  title="Proto Lambo AI video"
+                  className="h-full w-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-16 border-t border-white/10 pt-10">
+          <div className="grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(320px,1.1fr)] lg:items-start">
+            <div>
+              <p className="text-xs font-semibold tracking-[0.2em] text-red-400 uppercase">Alternate short cut</p>
+              <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Proto Lambo — short sample</h2>
+              <p className="mt-5 max-w-xl leading-8 text-white/60">
+                A compact version of the same graveyard-of-memecoins concept, keeping the product cue simple and the production footprint intentionally light.
+              </p>
+            </div>
+            <div className="overflow-hidden rounded-2xl border border-white/10 bg-black shadow-2xl shadow-red-950/20">
+              <div className="aspect-[9/16] w-full sm:aspect-video">
+                <iframe
+                  src="https://www.youtube.com/embed/mUDl8Cmb61s"
+                  title="Proto Lambo short sample"
+                  className="h-full w-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 />
               </div>
