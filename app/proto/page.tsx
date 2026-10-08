@@ -128,6 +128,17 @@ export default function ProtoPage() {
           <div className="grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(320px,1.1fr)] lg:items-start">
             <div>
               <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">Higgsfield generated AI UGC sample</h2>
+              <p className="mt-5 max-w-xl leading-8 text-white/60">
+                This concept was created with minimal generations and credit usage because those credits are valuable, and I wanted to get this page up quickly while still showing the direction.
+              </p>
+              <div className="mt-8 space-y-4 border-l border-red-500/50 pl-5 text-sm leading-7 text-white/55">
+                <p>
+                  The concept behind this short video is to show a memecoin graveyard and Proto as a &apos;gift&apos; to traders. When the AI character from Higgsfield opens the gift box, the Proto-branded MacBook Pro automatically levitates into his hands.
+                </p>
+                <p>
+                  A CapCut animated text overlay was then used for commercial effect. This is by no means a complete representation of what finished content would look like for Proto, but it is a sample of the creative direction.
+                </p>
+              </div>
             </div>
             <div className="overflow-hidden rounded-2xl border border-white/10 bg-black shadow-2xl shadow-red-950/20">
               <div className="aspect-[9/16] w-full sm:aspect-video">
