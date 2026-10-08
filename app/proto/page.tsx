@@ -87,6 +87,38 @@ export default function ProtoPage() {
           </div>
         </section>
 
+        <section className="mt-16 border-t border-white/10 pt-10">
+          <div className="grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(320px,1.1fr)] lg:items-start">
+            <div>
+              <p className="text-xs font-semibold tracking-[0.2em] text-red-400 uppercase">AI UGC concept</p>
+              <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Threadguy AI UGC video</h2>
+              <p className="mt-5 max-w-xl leading-8 text-white/60">
+                This upper/lower trading-format video is a strong template for an AI UGC army featuring Proto&apos;s platform — and it can take a Kalshi-style approach as well.
+              </p>
+              <div className="mt-8 space-y-4 border-l border-red-500/50 pl-5 text-sm leading-7 text-white/55">
+                <p>
+                  The neon lights in the background could be cleaned up with further generations or a targeted overlay in post.
+                </p>
+                <p>
+                  I left the repeated “reality” beat in place intentionally: the imperfection helps sell the realism of the format.
+                </p>
+              </div>
+            </div>
+
+            <div className="overflow-hidden rounded-2xl border border-white/10 bg-black shadow-2xl shadow-red-950/20">
+              <div className="aspect-[9/16] w-full sm:aspect-video">
+                <iframe
+                  src="https://www.youtube.com/embed/GsJ_jBMRon4"
+                  title="Threadguy AI UGC video"
+                  className="h-full w-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
         <footer className="mt-20 border-t border-white/10 pt-8 text-center">
           <p className="text-gray-400">© {footerYear} Kelly Reddington. All rights reserved.</p>
         </footer>
