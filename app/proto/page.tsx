@@ -90,8 +90,7 @@ export default function ProtoPage() {
         <section className="mt-16 border-t border-white/10 pt-10">
           <div className="grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(320px,1.1fr)] lg:items-start">
             <div>
-              <p className="text-xs font-semibold tracking-[0.2em] text-red-400 uppercase">Brand character concept</p>
-              <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Proto Lambo</h2>
+              <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">What the Proto founders will be driving soon</h2>
               <p className="mt-5 max-w-xl leading-8 text-white/60">
                 I used Midjourney to generate the initial Lamborghini, aligned with Proto&apos;s brand using its X profile photo, then took that generation into Omni for rapid, cost-efficient iteration.
               </p>
@@ -125,17 +124,16 @@ export default function ProtoPage() {
         <section className="mt-16 border-t border-white/10 pt-10">
           <div className="grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(320px,1.1fr)] lg:items-start">
             <div>
-              <p className="text-xs font-semibold tracking-[0.2em] text-red-400 uppercase">Alternate short cut</p>
-              <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Proto Lambo — short sample</h2>
+              <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">Higgsfield generated AI UGC sample</h2>
               <p className="mt-5 max-w-xl leading-8 text-white/60">
-                A compact version of the same graveyard-of-memecoins concept, keeping the product cue simple and the production footprint intentionally light.
+                The concept behind this short video is to show a memecoin graveyard and Proto as a &apos;gift&apos; to traders. When the AI character from Higgsfield opens up the gift box, the Proto branded MacBook Pro automatically levitates into his hands, followed by a CapCut animated text overlay for commercial effect. By no means is this a complete representation of what finished content would look like for Proto, but it is a sample.
               </p>
             </div>
             <div className="overflow-hidden rounded-2xl border border-white/10 bg-black shadow-2xl shadow-red-950/20">
               <div className="aspect-[9/16] w-full sm:aspect-video">
                 <iframe
                   src="https://www.youtube.com/embed/mUDl8Cmb61s"
-                  title="Proto Lambo short sample"
+                  title="Higgsfield generated AI UGC sample"
                   className="h-full w-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
