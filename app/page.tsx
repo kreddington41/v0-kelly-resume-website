@@ -1,4 +1,5 @@
 import { Hero } from "@/components/hero"
+import { CompanyLogoBanner } from "@/components/company-logo-banner"
 import { SolanaFoundation } from "@/components/solana-foundation"
 import { Skills } from "@/components/skills"
 import { KrakenInstitutional } from "@/components/kraken-institutional"
@@ -21,6 +22,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       {/* <Navigation /> */}
       <Hero />
+      <CompanyLogoBanner key="companies" />
       <SolanaFoundation />
       <KrakenInstitutional />
       <WisdomTreeOverview />
