@@ -17,12 +17,21 @@ export function CompanyLogoBanner() {
         <p className="mb-7 text-center text-xs font-semibold uppercase tracking-[0.22em] text-gray-500">
           Selected clients and collaborators
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-8 sm:gap-x-12 sm:gap-y-10">
-          {companies.map((company) => (
-            <div key={company.name} className="flex h-14 items-center justify-center opacity-75 grayscale transition-opacity hover:opacity-100 hover:grayscale-0 sm:h-16">
-              <img src={company.src} alt={company.name} className={`${company.className} max-h-14 object-contain sm:max-h-16`} />
-            </div>
-          ))}
+        <div className="relative overflow-hidden" aria-label="Company logos marquee">
+          <div className="company-logo-marquee flex w-max items-center gap-x-10 sm:gap-x-16">
+            {[...companies, ...companies].map((company, index) => (
+              <div
+                key={`${company.name}-${index}`}
+                className="flex h-14 shrink-0 items-center justify-center opacity-75 grayscale transition-opacity hover:opacity-100 hover:grayscale-0 sm:h-16"
+              >
+                <img
+                  src={company.src}
+                  alt={index >= companies.length ? "" : company.name}
+                  className={`${company.className} max-h-14 object-contain sm:max-h-16`}
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
