@@ -138,8 +138,27 @@
   animation: fade-in 1s ease-out;
 }
 
-/* Smooth scrolling */
-html {
+  @keyframes company-logo-marquee {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .company-logo-marquee {
+    animation: company-logo-marquee 32s linear infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .company-logo-marquee {
+      animation-play-state: paused;
+    }
+  }
+
+  /* Smooth scrolling */
+  html {
   scroll-behavior: smooth;
 }
 
