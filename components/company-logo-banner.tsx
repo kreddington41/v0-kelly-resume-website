@@ -8,6 +8,7 @@ const companies = [
   { name: "WisdomTree", src: "/companies/wisdomtree.png", className: "w-36 sm:w-44" },
   { name: "Chainlink Labs", src: "/companies/chainlink-labs.png", className: "w-44 sm:w-52" },
   { name: "Kraken", src: "/companies/kraken.png", className: "w-36 sm:w-44" },
+  { name: "The Solana Foundation", src: "/companies/solana-foundation.svg", className: "w-52 sm:w-64" },
 ]
 
 export function CompanyLogoBanner() {
