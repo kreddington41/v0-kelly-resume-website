@@ -34,7 +34,7 @@ export function Hero() {
             Kelly Reddington
           </h1>
           <div className="text-xl md:text-2xl text-gray-300 mb-4">
-            Product Marketing & GTM Leader | AI Automations | Fintech & Digital Assets{" "}
+            AI-Native Product Marketer | Brand Strategist | GTM Leader | Content & Copywriting
           </div>
           <div className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
             Blending technical fluency with narrative clarity to drive adoption.
