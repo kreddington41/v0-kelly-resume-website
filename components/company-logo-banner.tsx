@@ -3,7 +3,8 @@ const companies = [
   { name: "Snapchat", src: "/companies/snapchat.png", className: "w-16 sm:w-20" },
   { name: "Aave", src: "/companies/aave.png", className: "w-28 sm:w-36" },
   { name: "Coinbase", src: "/companies/coinbase.png", className: "w-32 sm:w-40" },
-  { name: "GitLab", src: "/companies/gitlab.png", className: "w-36 sm:w-44" },
+  // Temporarily hidden while a direct application to GitLab is in progress. Uncomment to restore.
+  // { name: "GitLab", src: "/companies/gitlab.png", className: "w-36 sm:w-44" },
   { name: "ACV Auctions", src: "/companies/acv-auctions.png", className: "w-32 sm:w-40" },
   { name: "WisdomTree", src: "/companies/wisdomtree.png", className: "w-36 sm:w-44" },
   { name: "Chainlink Labs", src: "/companies/chainlink-labs.png", className: "w-44 sm:w-52" },
